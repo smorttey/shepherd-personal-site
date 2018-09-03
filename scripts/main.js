@@ -1,6 +1,7 @@
 var myImage = document.querySelector('#firstimg');
 var myWorldSmile = document.querySelector('#worldsmile')
 var smileyImg = document.querySelector('#smiley');
+var introHi = document.querySelector('#introhi')
 
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
@@ -30,4 +31,7 @@ myButton.onmouseout = function(){
 myWorldSmile.ondblclick = function(){
 	myWorldSmile.style.display = 'none';
 	smileyImg.style.display = 'block';
+}
+introHi.onclick = function() {
+  introHi.style.fontSize = '72px';
 }
