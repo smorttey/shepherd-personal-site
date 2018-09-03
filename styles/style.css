@@ -1,0 +1,24 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	padding: 5% 20%;
+
+}
+p {
+  color: black;
+  font-size: 18px;
+  line-height: 1.2 ;
+}
+h1 {
+	color: #F69125;
+}
+html {
+	background-color: #D3DBE3
+}
+button	{
+	padding: 20px;
+	float: right;
+}
+img {
+    float: right;
+    margin: 10px;
+}
